@@ -1,0 +1,20 @@
+.fullscreen-image {
+  width: 100vw; /* Viewport width */
+  height: 100vh; /* Viewport height */
+  object-fit: cover; /* Ensures the image covers the entire container without distortion */
+}
+
+.img-text-wrapper {
+position: relative;
+}
+
+.text-overlay {
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+text-align: center;
+color: #fff; /* adjust the text color as needed */
+}
+
+
