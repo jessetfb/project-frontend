@@ -31,7 +31,7 @@ export const Routes = createBrowserRouter([
     <Registration/>
   },
   {
-    path : "Contactus",
+    path : "/Contactus",
     element:
     <ContactUsPage/>
   }
