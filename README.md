@@ -23,7 +23,7 @@ License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 Contact
-For any inquiries or support, please contact us at support@realestateapp.com.
+For any inquiries or support, please contact us at langatjesse@gmail.com
 
 README.md created by JESSE LANGAT on 18th June 2024.
 
