@@ -10,11 +10,7 @@ Detailed Property Information: Access detailed descriptions, high-quality photos
 
 Getting Started
 Sign Up: Create an account using your email or social media profiles.
-Profile Setup: Complete your profile by adding personal information and preferences.
-Explore Listings: Start browsing properties that match your criteria and save your favorites.
-Contact Agents: Reach out to agents for more information or to schedule a viewing.
-Make Offers: Submit offers and negotiate directly through the app.
-
+buy or rent a house
 backend repo link :https://github.com/jessetfb/project-backend.git
 Contributing
 We welcome contributions from the community to help improve the Real Estate App. Please read our contribution guidelines before making any changes.
