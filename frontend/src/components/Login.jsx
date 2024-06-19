@@ -33,18 +33,19 @@ function Login() {
             <Controller
               name="email"
               control={control}
-              render={({ field,fieldState }) => (
+              render={({ field, fieldState }) => (
                 <Form.Group controlId="email">
                   <Form.Label>Email</Form.Label>
                   <Form.Control
                     type="email"
                     placeholder="Enter email"
                     {...field}
+                    isInvalid={!!errors.email}
                   />
-                  {fieldState.invalid&&(
-                     <Form.Text className='text-danger'>
-                      {fieldState.error.message}
-                     </Form.Text>
+                  {errors.email && (
+                    <Form.Text className="text-danger">
+                      {errors.email.message}
+                    </Form.Text>
                   )}
                 </Form.Group>
               )}
@@ -52,21 +53,20 @@ function Login() {
             <Controller
               name="password"
               control={control}
-              render={({ field ,fieldState}) => (
+              render={({ field, fieldState }) => (
                 <Form.Group controlId="password">
                   <Form.Label>Password</Form.Label>
                   <Form.Control
                     type="password"
                     placeholder="Enter password"
                     {...field}
+                    isInvalid={!!errors.password}
                   />
-                    {fieldState.invalid&&(
-                     <Form.Text className='text-danger'>
-                      {fieldState.error.message}
-                     </Form.Text>
+                  {errors.password && (
+                    <Form.Text className="text-danger">
+                      {errors.password.message}
+                    </Form.Text>
                   )}
-                  
-                  
                 </Form.Group>
               )}
             />
@@ -87,4 +87,4 @@ function Login() {
   );
 }
 
-export default Login;
+export default Login
